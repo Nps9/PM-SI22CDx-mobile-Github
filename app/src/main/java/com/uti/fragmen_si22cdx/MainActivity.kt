@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
             //  buka "MenuFragment3"
             // definisikan variabel "fragment"
-            val fragment = Menu3Fragment()
+            val fragment = Menu3Fragment(1)
             // definisikan variable bundle
             val bundle = Bundle()
             // isi parameter "bundle" untuk dikirim
