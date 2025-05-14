@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             // setup bundle dengan fragment
             fragment.arguments = bundle
 
-            supportFragmentManager.beginTransaction().replace(R.id.frm_content, fragment)
+            supportFragmentManager.beginTransaction().replace(R.id.frm_content, fragment)ya
                 .commit()
         }
 
